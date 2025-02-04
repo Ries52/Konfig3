@@ -1,5 +1,4 @@
 name: Java CI with Maven
-
 on:
   push:
     branches:
@@ -24,4 +23,3 @@ jobs:
       
       - name: Build and test with Maven
         run: mvn clean install
-
