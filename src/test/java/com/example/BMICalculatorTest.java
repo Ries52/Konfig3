@@ -14,6 +14,7 @@ public class BMICalculatorTest {
         assertEquals(70, calculator.getBodyWeight(), 0.01);
         assertEquals('m', calculator.getGender());
     }
+
     @Test
     public void testCalculateBMI() {
         BMICalculator calculator = new BMICalculator("Max", "Mustermann", 170, 70, 'm');
