@@ -16,7 +16,6 @@ public class BMICalculator {
         this.gender = gender;
     }
 
-
     public String getFirstname() { return firstname; }
     public String getLastname() { return lastname; }
     public int getBodyHeight() { return bodyHeight; }
