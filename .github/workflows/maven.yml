@@ -19,7 +19,8 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: 17  # Die gewünschte Java-Version
-          distribution: 'adoptopenjdk'  # Distribution hinzufügen (z. B. adoptopenjdk, openjdk, zulu)
+          distribution: 'adopt'  # Distribution hinzufügen (z. B. adoptopenjdk, openjdk, zulu)
+          check-latest: true 
       
       - name: Build and test with Maven
         run: mvn clean install
